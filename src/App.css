@@ -19,7 +19,6 @@ body, html, #root {
   background: linear-gradient(135deg, #6b73ff, #000dff); /* seu background */
 }
 
-
 /* Tema dark */
 .app.dark {
   background: linear-gradient(135deg, #1a1a1a, #333);
@@ -37,7 +36,6 @@ body, html, #root {
   color: #fff;
   position: relative;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  /* margin removida */
 }
 
 /* Títulos */

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import Login from "./components/Login";
 import Cadastro from "./components/Cadastro";
@@ -17,6 +18,18 @@ function App() {
         {page === "login" ? <Login togglePage={togglePage} /> : <Cadastro togglePage={togglePage} />}
       </div>
     </div>
+=======
+
+import './App.css'
+import Login from './components/Login/Login';
+
+function App() {
+  
+  return (
+   <div className='App'>
+    <Login />
+   </div>
+>>>>>>> 66f79e0055e7c02c90684d6a3f16408f3ed19e84
   );
 }
 
