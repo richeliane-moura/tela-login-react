@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import Login from "./components/Login";
 import Cadastro from "./components/Cadastro";
@@ -13,24 +12,13 @@ function App() {
 
   return (
     <div className={`app ${theme}`}>
-      <ToggleTheme theme={theme} setTheme={setTheme} />  {/* Colocando o botão de Dark Mode fora do container */}
+      <ToggleTheme theme={theme} setTheme={setTheme} />  {/* Botão Dark Mode fora do container */}
       <div className="form-wrapper">
         {page === "login" ? <Login togglePage={togglePage} /> : <Cadastro togglePage={togglePage} />}
       </div>
     </div>
-=======
-
-import './App.css'
-import Login from './components/Login/Login';
-
-function App() {
-  
-  return (
-   <div className='App'>
-    <Login />
-   </div>
->>>>>>> 66f79e0055e7c02c90684d6a3f16408f3ed19e84
   );
 }
 
 export default App;
+
